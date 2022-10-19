@@ -80,6 +80,12 @@ SonarCloud showing the codecovearge of our microservice
 
 ## Jenkins integration
 
+To publish Jenkins endpoints to be triggered by Bitbucket we will used ngrok. Just executed this command:
+
+```shell
+ngrok http 8080
+```
+
 We create a Jenkins service from Docker and installed these plugins:
 
 - **Docker plugin**: To integrate with docker.
